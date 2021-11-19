@@ -20,7 +20,7 @@ defmodule ExHal.Mixfile do
 
   defp deps do
     [
-      {:poison, "~> 2.2 or ~> 3.0"},
+      {:poison, "~> 2.2 or ~> 3.0 or ~> 5.0"},
       {:uri_template, "~> 1.0"},
       {:httpoison, "~> 1.0"},
       {:odgn_json_pointer, ">= 1.0.0 and < 4.0.0", app: false},
